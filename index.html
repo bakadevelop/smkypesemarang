@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id" class="h-full">
   <head>
     <meta charset="UTF-8" />
@@ -6,6 +6,7 @@
     <title>
       SMK YPE Semarang - Unggul dalam Prestasi, Berkarakter dalam Budaya
     </title>
+    <link rel="icon" href="asset/favicon-16x16.png" type="image/png" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="/_sdk/element_sdk.js"></script>
     <link
@@ -202,71 +203,74 @@
     <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
   </head>
   <body class="h-full">
-    <div class="app-wrapper bg-white">
+    <div class="bg-white app-wrapper">
       <!-- Navigation -->
       <nav
         id="navbar"
-        class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md shadow-sm transition-all duration-300"
+        class="top-0 right-0 left-0 z-50 fixed bg-white/95 shadow-sm backdrop-blur-md transition-all duration-300"
       >
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="flex items-center justify-between h-16 md:h-20">
+        <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+          <div class="flex justify-between items-center h-16 md:h-20">
             <div class="flex items-center gap-3">
               <img
-                src="Logo SMK YPE Semarang.png"
+                src="asset/apple-touch-icon.png"
                 alt="Logo SMK YPE Semarang"
-                class="h-10 md:h-14 w-auto"
-                onerror="this.src=''; this.alt='Logo';"
+                class="w-auto h-10 md:h-14"
+                onerror="
+                  this.src = '';
+                  this.alt = 'Logo';
+                "
               />
               <div class="hidden sm:block">
                 <h1
                   id="nav-school-name"
-                  class="text-lg md:text-xl font-bold text-[#00529C]"
+                  class="font-bold text-[#00529C] text-lg md:text-xl"
                 >
                   SMK YPE Semarang
                 </h1>
-                <p class="text-xs text-gray-500">Sekolah Menengah Kejuruan</p>
+                <p class="text-gray-500 text-xs">Sekolah Menengah Kejuruan</p>
               </div>
             </div>
             <div class="hidden lg:flex items-center gap-8">
               <a
                 href="#beranda"
-                class="nav-link text-gray-700 hover:text-[#00529C] font-medium text-sm"
+                class="font-medium text-gray-700 hover:text-[#00529C] text-sm nav-link"
                 >Beranda</a
               >
               <a
                 href="#tentang"
-                class="nav-link text-gray-700 hover:text-[#00529C] font-medium text-sm"
+                class="font-medium text-gray-700 hover:text-[#00529C] text-sm nav-link"
                 >Tentang</a
               >
               <a
                 href="#akademik"
-                class="nav-link text-gray-700 hover:text-[#00529C] font-medium text-sm"
+                class="font-medium text-gray-700 hover:text-[#00529C] text-sm nav-link"
                 >Akademik</a
               >
               <a
                 href="#fasilitas"
-                class="nav-link text-gray-700 hover:text-[#00529C] font-medium text-sm"
+                class="font-medium text-gray-700 hover:text-[#00529C] text-sm nav-link"
                 >Fasilitas</a
               >
               <a
                 href="#prestasi"
-                class="nav-link text-gray-700 hover:text-[#00529C] font-medium text-sm"
+                class="font-medium text-gray-700 hover:text-[#00529C] text-sm nav-link"
                 >Prestasi</a
               >
               <a
                 href="#kontak"
-                class="nav-link text-gray-700 hover:text-[#00529C] font-medium text-sm"
+                class="font-medium text-gray-700 hover:text-[#00529C] text-sm nav-link"
                 >Kontak</a
               >
               <a
                 href="#kontak"
-                class="bg-gradient-to-r from-[#00529C] to-[#007BC2] text-white px-6 py-2.5 rounded-full font-semibold text-sm hover:shadow-lg hover:shadow-blue-200 transition-all"
+                class="bg-gradient-to-r from-[#00529C] to-[#007BC2] hover:shadow-blue-200 hover:shadow-lg px-6 py-2.5 rounded-full font-semibold text-white text-sm transition-all"
                 >Daftar Sekarang</a
               >
             </div>
             <button
               id="mobile-menu-btn"
-              class="lg:hidden p-2 rounded-lg hover:bg-gray-100"
+              class="lg:hidden hover:bg-gray-100 p-2 rounded-lg"
             >
               <svg
                 class="w-6 h-6 text-gray-700"
@@ -285,41 +289,41 @@
           </div>
         </div>
         <!-- Mobile Menu -->
-        <div id="mobile-menu" class="lg:hidden hidden bg-white border-t">
-          <div class="px-4 py-4 space-y-3">
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-t">
+          <div class="space-y-3 px-4 py-4">
             <a
               href="#beranda"
-              class="block text-gray-700 hover:text-[#00529C] font-medium py-2"
+              class="block py-2 font-medium text-gray-700 hover:text-[#00529C]"
               >Beranda</a
             >
             <a
               href="#tentang"
-              class="block text-gray-700 hover:text-[#00529C] font-medium py-2"
+              class="block py-2 font-medium text-gray-700 hover:text-[#00529C]"
               >Tentang</a
             >
             <a
               href="#akademik"
-              class="block text-gray-700 hover:text-[#00529C] font-medium py-2"
+              class="block py-2 font-medium text-gray-700 hover:text-[#00529C]"
               >Akademik</a
             >
             <a
               href="#fasilitas"
-              class="block text-gray-700 hover:text-[#00529C] font-medium py-2"
+              class="block py-2 font-medium text-gray-700 hover:text-[#00529C]"
               >Fasilitas</a
             >
             <a
               href="#prestasi"
-              class="block text-gray-700 hover:text-[#00529C] font-medium py-2"
+              class="block py-2 font-medium text-gray-700 hover:text-[#00529C]"
               >Prestasi</a
             >
             <a
               href="#kontak"
-              class="block text-gray-700 hover:text-[#00529C] font-medium py-2"
+              class="block py-2 font-medium text-gray-700 hover:text-[#00529C]"
               >Kontak</a
             >
             <a
               href="#kontak"
-              class="block bg-gradient-to-r from-[#00529C] to-[#007BC2] text-white px-6 py-3 rounded-full font-semibold text-center"
+              class="block bg-gradient-to-r from-[#00529C] to-[#007BC2] px-6 py-3 rounded-full font-semibold text-white text-center"
               >Daftar Sekarang</a
             >
           </div>
@@ -330,62 +334,62 @@
         id="beranda"
         class="relative h-screen min-h-[600px] max-h-[900px]"
       >
-        <div class="slider-container absolute inset-0">
+        <div class="absolute inset-0 slider-container">
           <div class="slide active">
             <img
               src="https://smkypeslawi.sch.id/userfiles/image/gedung%20smk.jpg"
               alt="SMK YPE Semarang"
-              onerror="this.style.display='none';"
+              onerror="this.style.display = 'none'"
             />
           </div>
           <div class="slide">
             <img
               src="https://sman2depok.sch.id/wp-content/uploads/2022/08/FOTO-UNTUK-WEB-SMADA.png"
               alt="SMK YPE Semarang"
-              onerror="this.style.display='none';"
+              onerror="this.style.display = 'none'"
             />
           </div>
           <div class="slide">
             <img
               src="https://sman2depok.sch.id/wp-content/uploads/2022/08/FOTO-UNTUK-WEB-SMADA-1.png"
               alt="SMK YPE Semarang"
-              onerror="this.style.display='none';"
+              onerror="this.style.display = 'none'"
             />
           </div>
         </div>
-        <div class="gradient-overlay absolute inset-0"></div>
+        <div class="absolute inset-0 gradient-overlay"></div>
         <div
-          class="relative z-10 h-full flex items-center justify-center text-center px-4"
+          class="z-10 relative flex justify-center items-center px-4 h-full text-center"
         >
           <div class="max-w-4xl animate-fadeInUp">
             <img
-              src="Logo SMK YPE Semarang.png"
+              src="asset/Logo SMK YPE Semarang.png"
               alt="Logo"
-              class="h-24 md:h-32 mx-auto mb-6"
-              onerror="this.style.display='none';"
+              class="mx-auto mb-6 h-24 md:h-32"
+              onerror="this.style.display = 'none'"
             />
             <h1
               id="hero-school-name"
-              class="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white mb-4 tracking-tight"
+              class="mb-4 font-extrabold text-white text-4xl md:text-6xl lg:text-7xl tracking-tight"
             >
               SMK YPE Semarang
             </h1>
             <p
               id="hero-slogan"
-              class="text-xl md:text-2xl lg:text-3xl text-white/90 font-light mb-8 italic"
+              class="mb-8 font-light text-white/90 text-xl md:text-2xl lg:text-3xl italic"
             >
               "Unggul dalam Prestasi, Berkarakter dalam Budaya"
             </p>
-            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <div class="flex sm:flex-row flex-col justify-center gap-4">
               <a
                 href="#kontak"
-                class="bg-white text-[#00529C] px-8 py-4 rounded-full font-bold text-lg hover:bg-blue-50 hover:shadow-xl transition-all"
+                class="bg-white hover:bg-blue-50 hover:shadow-xl px-8 py-4 rounded-full font-bold text-[#00529C] text-lg transition-all"
               >
                 Daftar Sekarang
               </a>
               <a
                 href="#tentang"
-                class="border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white/10 transition-all"
+                class="hover:bg-white/10 px-8 py-4 border-2 border-white rounded-full font-bold text-white text-lg transition-all"
               >
                 Pelajari Lebih Lanjut
               </a>
@@ -394,28 +398,28 @@
         </div>
         <!-- Slider Dots -->
         <div
-          class="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20 flex gap-3"
+          class="bottom-8 left-1/2 z-20 absolute flex gap-3 -translate-x-1/2 transform"
         >
           <button
-            class="slider-dot w-3 h-3 rounded-full bg-white/50 transition-all active-dot"
+            class="bg-white/50 rounded-full w-3 h-3 transition-all slider-dot active-dot"
             data-slide="0"
           ></button>
           <button
-            class="slider-dot w-3 h-3 rounded-full bg-white/50 transition-all"
+            class="bg-white/50 rounded-full w-3 h-3 transition-all slider-dot"
             data-slide="1"
           ></button>
           <button
-            class="slider-dot w-3 h-3 rounded-full bg-white/50 transition-all"
+            class="bg-white/50 rounded-full w-3 h-3 transition-all slider-dot"
             data-slide="2"
           ></button>
         </div>
         <!-- Scroll Indicator -->
-        <div class="absolute bottom-8 right-8 z-20 hidden md:block">
+        <div class="hidden md:block right-8 bottom-8 z-20 absolute">
           <a
             href="#tentang"
             class="flex flex-col items-center text-white/70 hover:text-white transition-all"
           >
-            <span class="text-sm mb-2">Scroll</span>
+            <span class="mb-2 text-sm">Scroll</span>
             <svg
               class="w-6 h-6 animate-bounce"
               fill="none"
@@ -434,26 +438,26 @@
       <!-- About Section -->
       <section
         id="tentang"
-        class="py-20 md:py-28 bg-gradient-to-b from-white to-blue-50/50"
+        class="bg-gradient-to-b from-white to-blue-50/50 py-20 md:py-28"
       >
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="text-center mb-16">
+        <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+          <div class="mb-16 text-center">
             <span
-              class="text-[#007BC2] font-semibold text-sm uppercase tracking-wider"
+              class="font-semibold text-[#007BC2] text-sm uppercase tracking-wider"
               >Tentang Kami</span
             >
             <h2
-              class="section-title text-3xl md:text-4xl lg:text-5xl font-bold text-[#00529C] mt-3"
+              class="mt-3 font-bold text-[#00529C] text-3xl md:text-4xl lg:text-5xl section-title"
             >
               Mengenal SMK YPE Semarang
             </h2>
           </div>
-          <div class="grid lg:grid-cols-2 gap-12 items-center">
+          <div class="items-center gap-12 grid lg:grid-cols-2">
             <div class="space-y-6">
-              <div class="bg-white rounded-2xl p-8 shadow-lg hover-lift">
+              <div class="bg-white shadow-lg p-8 rounded-2xl hover-lift">
                 <div class="flex items-center gap-4 mb-4">
                   <div
-                    class="w-12 h-12 bg-gradient-to-br from-[#00529C] to-[#007BC2] rounded-xl flex items-center justify-center"
+                    class="flex justify-center items-center bg-gradient-to-br from-[#00529C] to-[#007BC2] rounded-xl w-12 h-12"
                   >
                     <svg
                       class="w-6 h-6 text-white"
@@ -469,7 +473,7 @@
                       />
                     </svg>
                   </div>
-                  <h3 class="text-xl font-bold text-[#00529C]">
+                  <h3 class="font-bold text-[#00529C] text-xl">
                     Sejarah Singkat
                   </h3>
                 </div>
@@ -481,10 +485,10 @@
                   melanjutkan ke perguruan tinggi.
                 </p>
               </div>
-              <div class="grid sm:grid-cols-2 gap-6">
-                <div class="bg-white rounded-2xl p-6 shadow-lg hover-lift">
+              <div class="gap-6 grid sm:grid-cols-2">
+                <div class="bg-white shadow-lg p-6 rounded-2xl hover-lift">
                   <div
-                    class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mb-4"
+                    class="flex justify-center items-center bg-blue-100 mb-4 rounded-lg w-10 h-10"
                   >
                     <svg
                       class="w-5 h-5 text-[#00529C]"
@@ -506,15 +510,15 @@
                       />
                     </svg>
                   </div>
-                  <h4 class="font-bold text-[#00529C] mb-2">Visi</h4>
+                  <h4 class="mb-2 font-bold text-[#00529C]">Visi</h4>
                   <p class="text-gray-600 text-sm">
                     Menjadi sekolah menengah kejuruan unggulan yang menghasilkan
                     lulusan berkarakter, kompeten dan berdaya saing global.
                   </p>
                 </div>
-                <div class="bg-white rounded-2xl p-6 shadow-lg hover-lift">
+                <div class="bg-white shadow-lg p-6 rounded-2xl hover-lift">
                   <div
-                    class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mb-4"
+                    class="flex justify-center items-center bg-blue-100 mb-4 rounded-lg w-10 h-10"
                   >
                     <svg
                       class="w-5 h-5 text-[#00529C]"
@@ -530,7 +534,7 @@
                       />
                     </svg>
                   </div>
-                  <h4 class="font-bold text-[#00529C] mb-2">Misi</h4>
+                  <h4 class="mb-2 font-bold text-[#00529C]">Misi</h4>
                   <p class="text-gray-600 text-sm">
                     Menyelenggarakan pendidikan berkualitas, mengembangkan
                     karakter luhur dan membekali keterampilan siap kerja.
@@ -540,59 +544,59 @@
             </div>
             <div class="relative">
               <div
-                class="bg-gradient-to-br from-[#00529C] to-[#007BC2] rounded-3xl p-8 text-white"
+                class="bg-gradient-to-br from-[#00529C] to-[#007BC2] p-8 rounded-3xl text-white"
               >
-                <div class="grid grid-cols-2 gap-6 text-center">
-                  <div class="bg-white/10 rounded-2xl p-6 backdrop-blur">
-                    <p class="text-4xl font-bold mb-1">38+</p>
-                    <p class="text-sm text-white/80">Tahun Berdiri</p>
+                <div class="gap-6 grid grid-cols-2 text-center">
+                  <div class="bg-white/10 backdrop-blur p-6 rounded-2xl">
+                    <p class="mb-1 font-bold text-4xl">38+</p>
+                    <p class="text-white/80 text-sm">Tahun Berdiri</p>
                   </div>
-                  <div class="bg-white/10 rounded-2xl p-6 backdrop-blur">
-                    <p class="text-4xl font-bold mb-1">5000+</p>
-                    <p class="text-sm text-white/80">Alumni</p>
+                  <div class="bg-white/10 backdrop-blur p-6 rounded-2xl">
+                    <p class="mb-1 font-bold text-4xl">5000+</p>
+                    <p class="text-white/80 text-sm">Alumni</p>
                   </div>
-                  <div class="bg-white/10 rounded-2xl p-6 backdrop-blur">
-                    <p class="text-4xl font-bold mb-1">20+</p>
-                    <p class="text-sm text-white/80">Guru Profesional</p>
+                  <div class="bg-white/10 backdrop-blur p-6 rounded-2xl">
+                    <p class="mb-1 font-bold text-4xl">20+</p>
+                    <p class="text-white/80 text-sm">Guru Profesional</p>
                   </div>
-                  <div class="bg-white/10 rounded-2xl p-6 backdrop-blur">
-                    <p class="text-4xl font-bold mb-1">B</p>
-                    <p class="text-sm text-white/80">Akreditasi</p>
+                  <div class="bg-white/10 backdrop-blur p-6 rounded-2xl">
+                    <p class="mb-1 font-bold text-4xl">B</p>
+                    <p class="text-white/80 text-sm">Akreditasi</p>
                   </div>
                 </div>
               </div>
               <div
-                class="absolute -bottom-6 -right-6 w-32 h-32 bg-blue-100 rounded-full -z-10"
+                class="-right-6 -bottom-6 -z-10 absolute bg-blue-100 rounded-full w-32 h-32"
               ></div>
               <div
-                class="absolute -top-6 -left-6 w-24 h-24 bg-blue-200/50 rounded-full -z-10"
+                class="-top-6 -left-6 -z-10 absolute bg-blue-200/50 rounded-full w-24 h-24"
               ></div>
             </div>
           </div>
         </div>
       </section>
       <!-- News Section -->
-      <section class="py-20 md:py-28 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="text-center mb-16">
+      <section class="bg-white py-20 md:py-28">
+        <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+          <div class="mb-16 text-center">
             <span
-              class="text-[#007BC2] font-semibold text-sm uppercase tracking-wider"
+              class="font-semibold text-[#007BC2] text-sm uppercase tracking-wider"
               >Update Terkini</span
             >
             <h2
-              class="section-title text-3xl md:text-4xl lg:text-5xl font-bold text-[#00529C] mt-3"
+              class="mt-3 font-bold text-[#00529C] text-3xl md:text-4xl lg:text-5xl section-title"
             >
               Berita Terbaru
             </h2>
           </div>
-          <div class="grid md:grid-cols-3 gap-8">
+          <div class="gap-8 grid md:grid-cols-3">
             <article
-              class="bg-white rounded-2xl overflow-hidden shadow-lg hover-lift group"
+              class="group bg-white shadow-lg rounded-2xl overflow-hidden hover-lift"
             >
               <div
-                class="h-48 bg-gradient-to-br from-[#00529C] to-[#007BC2] relative overflow-hidden"
+                class="relative bg-gradient-to-br from-[#00529C] to-[#007BC2] h-48 overflow-hidden"
               >
-                <div class="absolute inset-0 flex items-center justify-center">
+                <div class="absolute inset-0 flex justify-center items-center">
                   <svg
                     class="w-20 h-20 text-white/30"
                     fill="none"
@@ -608,36 +612,36 @@
                   </svg>
                 </div>
                 <div
-                  class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-xs font-semibold text-[#00529C]"
+                  class="top-4 left-4 absolute bg-white px-3 py-1 rounded-full font-semibold text-[#00529C] text-xs"
                 >
                   Akademik
                 </div>
               </div>
               <div class="p-6">
-                <p class="text-sm text-gray-400 mb-2">15 Januari 2024</p>
+                <p class="mb-2 text-gray-400 text-sm">15 Januari 2024</p>
                 <h3
-                  class="font-bold text-[#00529C] text-lg mb-2 group-hover:text-[#007BC2] transition-colors"
+                  class="mb-2 font-bold text-[#00529C] group-hover:text-[#007BC2] text-lg transition-colors"
                 >
                   Siswa SMK YPE Raih Juara OSN Tingkat Provinsi
                 </h3>
-                <p class="text-gray-600 text-sm mb-4">
+                <p class="mb-4 text-gray-600 text-sm">
                   Tim olimpiade sains sekolah berhasil meraih medali emas dan
                   perak dalam kompetisi tingkat provinsi Jawa Tengah.
                 </p>
                 <a
                   href="#"
-                  class="text-[#007BC2] font-semibold text-sm hover:underline"
+                  class="font-semibold text-[#007BC2] text-sm hover:underline"
                   >Baca Selengkapnya →</a
                 >
               </div>
             </article>
             <article
-              class="bg-white rounded-2xl overflow-hidden shadow-lg hover-lift group"
+              class="group bg-white shadow-lg rounded-2xl overflow-hidden hover-lift"
             >
               <div
-                class="h-48 bg-gradient-to-br from-[#007BC2] to-[#00529C] relative overflow-hidden"
+                class="relative bg-gradient-to-br from-[#007BC2] to-[#00529C] h-48 overflow-hidden"
               >
-                <div class="absolute inset-0 flex items-center justify-center">
+                <div class="absolute inset-0 flex justify-center items-center">
                   <svg
                     class="w-20 h-20 text-white/30"
                     fill="none"
@@ -653,36 +657,36 @@
                   </svg>
                 </div>
                 <div
-                  class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-xs font-semibold text-[#00529C]"
+                  class="top-4 left-4 absolute bg-white px-3 py-1 rounded-full font-semibold text-[#00529C] text-xs"
                 >
                   Kegiatan
                 </div>
               </div>
               <div class="p-6">
-                <p class="text-sm text-gray-400 mb-2">10 Januari 2024</p>
+                <p class="mb-2 text-gray-400 text-sm">10 Januari 2024</p>
                 <h3
-                  class="font-bold text-[#00529C] text-lg mb-2 group-hover:text-[#007BC2] transition-colors"
+                  class="mb-2 font-bold text-[#00529C] group-hover:text-[#007BC2] text-lg transition-colors"
                 >
                   Workshop Industri 4.0 Bersama Pelaku Usaha
                 </h3>
-                <p class="text-gray-600 text-sm mb-4">
+                <p class="mb-4 text-gray-600 text-sm">
                   Siswa kelas XII mengikuti workshop persiapan dunia kerja
                   dengan narasumber dari berbagai perusahaan terkemuka.
                 </p>
                 <a
                   href="#"
-                  class="text-[#007BC2] font-semibold text-sm hover:underline"
+                  class="font-semibold text-[#007BC2] text-sm hover:underline"
                   >Baca Selengkapnya →</a
                 >
               </div>
             </article>
             <article
-              class="bg-white rounded-2xl overflow-hidden shadow-lg hover-lift group"
+              class="group bg-white shadow-lg rounded-2xl overflow-hidden hover-lift"
             >
               <div
-                class="h-48 bg-gradient-to-br from-[#00529C] to-[#00a5e0] relative overflow-hidden"
+                class="relative bg-gradient-to-br from-[#00529C] to-[#00a5e0] h-48 overflow-hidden"
               >
-                <div class="absolute inset-0 flex items-center justify-center">
+                <div class="absolute inset-0 flex justify-center items-center">
                   <svg
                     class="w-20 h-20 text-white/30"
                     fill="none"
@@ -698,25 +702,25 @@
                   </svg>
                 </div>
                 <div
-                  class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-xs font-semibold text-[#00529C]"
+                  class="top-4 left-4 absolute bg-white px-3 py-1 rounded-full font-semibold text-[#00529C] text-xs"
                 >
                   Prestasi
                 </div>
               </div>
               <div class="p-6">
-                <p class="text-sm text-gray-400 mb-2">5 Januari 2024</p>
+                <p class="mb-2 text-gray-400 text-sm">5 Januari 2024</p>
                 <h3
-                  class="font-bold text-[#00529C] text-lg mb-2 group-hover:text-[#007BC2] transition-colors"
+                  class="mb-2 font-bold text-[#00529C] group-hover:text-[#007BC2] text-lg transition-colors"
                 >
                   Tim Robotik Lolos Kompetisi Nasional
                 </h3>
-                <p class="text-gray-600 text-sm mb-4">
+                <p class="mb-4 text-gray-600 text-sm">
                   Tim robotik sekolah berhasil lolos seleksi dan akan mewakili
                   Jawa Tengah di kompetisi robotik tingkat nasional.
                 </p>
                 <a
                   href="#"
-                  class="text-[#007BC2] font-semibold text-sm hover:underline"
+                  class="font-semibold text-[#007BC2] text-sm hover:underline"
                   >Baca Selengkapnya →</a
                 >
               </div>
@@ -726,33 +730,33 @@
       </section>
       <!-- Principal Welcome Section -->
       <section
-        class="py-20 md:py-28 bg-gradient-to-br from-[#00529C] via-[#006bb8] to-[#007BC2] relative overflow-hidden"
+        class="relative bg-gradient-to-br from-[#00529C] via-[#006bb8] to-[#007BC2] py-20 md:py-28 overflow-hidden"
       >
         <div class="absolute inset-0 opacity-10">
           <div
-            class="absolute top-0 left-0 w-96 h-96 bg-white rounded-full -translate-x-1/2 -translate-y-1/2"
+            class="top-0 left-0 absolute bg-white rounded-full w-96 h-96 -translate-x-1/2 -translate-y-1/2"
           ></div>
           <div
-            class="absolute bottom-0 right-0 w-80 h-80 bg-white rounded-full translate-x-1/3 translate-y-1/3"
+            class="right-0 bottom-0 absolute bg-white rounded-full w-80 h-80 translate-x-1/3 translate-y-1/3"
           ></div>
         </div>
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div class="grid lg:grid-cols-2 gap-12 items-center">
-            <div class="text-center lg:text-left order-2 lg:order-1">
+        <div class="z-10 relative mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+          <div class="items-center gap-12 grid lg:grid-cols-2">
+            <div class="order-2 lg:order-1 lg:text-left text-center">
               <span
-                class="text-blue-200 font-semibold text-sm uppercase tracking-wider"
+                class="font-semibold text-blue-200 text-sm uppercase tracking-wider"
                 >Sambutan</span
               >
               <h2
-                class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mt-3 mb-6"
+                class="mt-3 mb-6 font-bold text-white text-3xl md:text-4xl lg:text-5xl"
               >
                 Kepala Sekolah
               </h2>
               <div
-                class="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20"
+                class="bg-white/10 backdrop-blur-sm p-8 border border-white/20 rounded-2xl"
               >
                 <svg
-                  class="w-10 h-10 text-blue-200 mb-4"
+                  class="mb-4 w-10 h-10 text-blue-200"
                   fill="currentColor"
                   viewbox="0 0 24 24"
                 >
@@ -760,21 +764,24 @@
                     d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"
                   />
                 </svg>
-                <p class="text-white/90 text-lg leading-relaxed mb-6">
-                  Assalamu'alaikum Warahmatullahi Wabarakatuh. Selamat datang di
-                  SMK YPE Semarang. Kami berkomitmen untuk mencetak generasi
-                  yang tidak hanya unggul dalam akademik dan keterampilan,
-                  tetapi juga memiliki karakter mulia dan siap menghadapi
-                  tantangan era global.
+                <p class="mb-6 text-white/90 text-lg leading-relaxed">
+                  Assalamu'alaikum Warahmatullahi Wabarakatuh. <br />
+                  Selamat datang di SMK YPE Semarang. Kami berkomitmen untuk
+                  mencetak generasi yang tidak hanya unggul dalam akademik dan
+                  keterampilan, tetapi juga memiliki karakter mulia dan siap
+                  menghadapi tantangan era global.
                 </p>
-                <p class="text-white/90 leading-relaxed mb-6">
+                <p class="mb-6 text-white/90 leading-relaxed">
                   Dengan dukungan tenaga pendidik profesional dan fasilitas
                   memadai, kami yakin dapat membimbing setiap siswa mencapai
                   potensi terbaiknya. Mari bergabung bersama kami dalam
                   perjalanan menuju masa depan gemilang.
                 </p>
-                <div class="border-t border-white/20 pt-6">
-                  <p id="principal-name" class="text-white font-bold text-xl">
+                <div class="pt-6 border-white/20 border-t">
+                  <p
+                    id="principal-name"
+                    class="font-bold text-white text-xl underline"
+                  >
                     Agung Baskoro, S.H.
                   </p>
                   <p class="text-blue-200">Kepala Sekolah SMK YPE Semarang</p>
@@ -784,20 +791,23 @@
             <div class="flex justify-center order-1 lg:order-2">
               <div class="relative">
                 <div
-                  class="w-72 h-72 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white/30 shadow-2xl"
+                  class="shadow-2xl border-4 border-white/30 rounded-full w-72 md:w-80 h-72 md:h-80 overflow-hidden"
                 >
                   <img
-                    src="https://akcdn.detik.net.id/community/media/visual/2024/06/13/kepala-smk-ype-sawunggalih-kutoarjo-tri-yulianto-saat-ditemui-detikjateng-di-ruangannya-kamis-1362024_169.jpeg?w=620"
+                    src="asset/img/Agung Baskoro.JPG"
                     alt="Kepala Sekolah"
-                    class="w-full h-full object-cover"
-                    onerror="this.parentElement.innerHTML='<div class=\'w-full h-full bg-white/20 flex items-center justify-center\'><svg class=\'w-32 h-32 text-white/50\' fill=\'currentColor\' viewBox=\'0 0 24 24\'><path d=\'M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\'/></svg></div>';"
+                    class="w-full h-full object-[50%_15%] object-cover"
+                    onerror="
+                      this.parentElement.innerHTML =
+                        '<div class=\'w-full h-full bg-white/20 flex items-center justify-center\'><svg class=\'w-32 h-32 text-white/50\' fill=\'currentColor\' viewBox=\'0 0 24 24\'><path d=\'M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\'/></svg></div>'
+                    "
                   />
                 </div>
                 <div
-                  class="absolute -bottom-4 -right-4 w-24 h-24 bg-white/20 rounded-full"
+                  class="-right-4 -bottom-4 absolute bg-white/20 rounded-full w-24 h-24"
                 ></div>
                 <div
-                  class="absolute -top-4 -left-4 w-16 h-16 bg-white/10 rounded-full"
+                  class="-top-4 -left-4 absolute bg-white/10 rounded-full w-16 h-16"
                 ></div>
               </div>
             </div>
@@ -807,34 +817,34 @@
       <!-- Academic Programs -->
       <section
         id="akademik"
-        class="py-20 md:py-28 bg-gradient-to-b from-blue-50/50 to-white"
+        class="bg-gradient-to-b from-blue-50/50 to-white py-20 md:py-28"
       >
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="text-center mb-16">
+        <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+          <div class="mb-16 text-center">
             <span
-              class="text-[#007BC2] font-semibold text-sm uppercase tracking-wider"
+              class="font-semibold text-[#007BC2] text-sm uppercase tracking-wider"
               >Program Unggulan</span
             >
             <h2
-              class="section-title text-3xl md:text-4xl lg:text-5xl font-bold text-[#00529C] mt-3"
+              class="mt-3 font-bold text-[#00529C] text-3xl md:text-4xl lg:text-5xl section-title"
             >
               Program Keahlian
             </h2>
-            <p class="text-gray-600 mt-8 max-w-2xl mx-auto">
+            <p class="mx-auto mt-8 max-w-2xl text-gray-600">
               Pilih jurusan sesuai minat dan bakatmu untuk mempersiapkan karir
               cemerlang di masa depan
             </p>
           </div>
-          <div class="grid md:grid-cols-3 gap-8">
+          <div class="gap-8 grid md:grid-cols-3">
             <div
-              class="bg-white rounded-3xl p-8 shadow-lg hover-lift group relative overflow-hidden"
+              class="group relative bg-white shadow-lg p-8 rounded-3xl overflow-hidden hover-lift"
             >
               <div
-                class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-blue-100 to-transparent rounded-bl-full -z-0"
+                class="top-0 right-0 -z-0 absolute bg-gradient-to-br from-blue-100 to-transparent rounded-bl-full w-32 h-32"
               ></div>
-              <div class="relative z-10">
+              <div class="z-10 relative">
                 <div
-                  class="w-16 h-16 bg-gradient-to-br from-[#00529C] to-[#007BC2] rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform"
+                  class="flex justify-center items-center bg-gradient-to-br from-[#00529C] to-[#007BC2] mb-6 rounded-2xl w-16 h-16 group-hover:scale-110 transition-transform"
                 >
                   <svg
                     class="w-8 h-8 text-white"
@@ -850,16 +860,16 @@
                     />
                   </svg>
                 </div>
-                <h3 class="text-xl font-bold text-[#00529C] mb-3">
+                <h3 class="mb-3 font-bold text-[#00529C] text-xl">
                   Teknik Komputer &amp; Jaringan
                 </h3>
-                <p class="text-gray-600 mb-6 leading-relaxed">
+                <p class="mb-6 text-gray-600 leading-relaxed">
                   Mempelajari instalasi jaringan, pemrograman, administrasi
                   server dan keamanan sistem komputer sesuai standar industri
                   IT.
                 </p>
                 <ul class="space-y-2 mb-6">
-                  <li class="flex items-center gap-2 text-sm text-gray-600">
+                  <li class="flex items-center gap-2 text-gray-600 text-sm">
                     <svg
                       class="w-4 h-4 text-green-500"
                       fill="none"
@@ -875,7 +885,7 @@
                     </svg>
                     Jaringan Komputer
                   </li>
-                  <li class="flex items-center gap-2 text-sm text-gray-600">
+                  <li class="flex items-center gap-2 text-gray-600 text-sm">
                     <svg
                       class="w-4 h-4 text-green-500"
                       fill="none"
@@ -891,7 +901,7 @@
                     </svg>
                     Pemrograman Dasar
                   </li>
-                  <li class="flex items-center gap-2 text-sm text-gray-600">
+                  <li class="flex items-center gap-2 text-gray-600 text-sm">
                     <svg
                       class="w-4 h-4 text-green-500"
                       fill="none"
@@ -910,7 +920,7 @@
                 </ul>
                 <a
                   href="#kontak"
-                  class="inline-flex items-center gap-2 text-[#007BC2] font-semibold group-hover:gap-3 transition-all"
+                  class="inline-flex items-center gap-2 group-hover:gap-3 font-semibold text-[#007BC2] transition-all"
                 >
                   Pelajari Lebih Lanjut
                   <svg
@@ -929,14 +939,14 @@
               </div>
             </div>
             <div
-              class="bg-white rounded-3xl p-8 shadow-lg hover-lift group relative overflow-hidden"
+              class="group relative bg-white shadow-lg p-8 rounded-3xl overflow-hidden hover-lift"
             >
               <div
-                class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-green-100 to-transparent rounded-bl-full -z-0"
+                class="top-0 right-0 -z-0 absolute bg-gradient-to-br from-green-100 to-transparent rounded-bl-full w-32 h-32"
               ></div>
-              <div class="relative z-10">
+              <div class="z-10 relative">
                 <div
-                  class="w-16 h-16 bg-gradient-to-br from-green-600 to-green-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform"
+                  class="flex justify-center items-center bg-gradient-to-br from-green-600 to-green-500 mb-6 rounded-2xl w-16 h-16 group-hover:scale-110 transition-transform"
                 >
                   <svg
                     class="w-8 h-8 text-white"
@@ -952,15 +962,15 @@
                     />
                   </svg>
                 </div>
-                <h3 class="text-xl font-bold text-[#00529C] mb-3">
+                <h3 class="mb-3 font-bold text-[#00529C] text-xl">
                   Akuntansi &amp; Keuangan
                 </h3>
-                <p class="text-gray-600 mb-6 leading-relaxed">
+                <p class="mb-6 text-gray-600 leading-relaxed">
                   Menguasai pembukuan, perpajakan, software akuntansi, dan
                   analisis keuangan untuk karir di dunia perbankan dan bisnis.
                 </p>
                 <ul class="space-y-2 mb-6">
-                  <li class="flex items-center gap-2 text-sm text-gray-600">
+                  <li class="flex items-center gap-2 text-gray-600 text-sm">
                     <svg
                       class="w-4 h-4 text-green-500"
                       fill="none"
@@ -976,7 +986,7 @@
                     </svg>
                     Akuntansi Keuangan
                   </li>
-                  <li class="flex items-center gap-2 text-sm text-gray-600">
+                  <li class="flex items-center gap-2 text-gray-600 text-sm">
                     <svg
                       class="w-4 h-4 text-green-500"
                       fill="none"
@@ -992,7 +1002,7 @@
                     </svg>
                     Perpajakan
                   </li>
-                  <li class="flex items-center gap-2 text-sm text-gray-600">
+                  <li class="flex items-center gap-2 text-gray-600 text-sm">
                     <svg
                       class="w-4 h-4 text-green-500"
                       fill="none"
@@ -1011,7 +1021,7 @@
                 </ul>
                 <a
                   href="#kontak"
-                  class="inline-flex items-center gap-2 text-[#007BC2] font-semibold group-hover:gap-3 transition-all"
+                  class="inline-flex items-center gap-2 group-hover:gap-3 font-semibold text-[#007BC2] transition-all"
                 >
                   Pelajari Lebih Lanjut
                   <svg
@@ -1030,14 +1040,14 @@
               </div>
             </div>
             <div
-              class="bg-white rounded-3xl p-8 shadow-lg hover-lift group relative overflow-hidden"
+              class="group relative bg-white shadow-lg p-8 rounded-3xl overflow-hidden hover-lift"
             >
               <div
-                class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-purple-100 to-transparent rounded-bl-full -z-0"
+                class="top-0 right-0 -z-0 absolute bg-gradient-to-br from-purple-100 to-transparent rounded-bl-full w-32 h-32"
               ></div>
-              <div class="relative z-10">
+              <div class="z-10 relative">
                 <div
-                  class="w-16 h-16 bg-gradient-to-br from-purple-600 to-purple-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform"
+                  class="flex justify-center items-center bg-gradient-to-br from-purple-600 to-purple-500 mb-6 rounded-2xl w-16 h-16 group-hover:scale-110 transition-transform"
                 >
                   <svg
                     class="w-8 h-8 text-white"
@@ -1053,15 +1063,15 @@
                     />
                   </svg>
                 </div>
-                <h3 class="text-xl font-bold text-[#00529C] mb-3">
+                <h3 class="mb-3 font-bold text-[#00529C] text-xl">
                   Bisnis Digital
                 </h3>
-                <p class="text-gray-600 mb-6 leading-relaxed">
+                <p class="mb-6 text-gray-600 leading-relaxed">
                   Belajar manajemen bisnis, digital marketing, e-commerce, dan
                   kewirausahaan untuk menjadi entrepreneur sukses.
                 </p>
                 <ul class="space-y-2 mb-6">
-                  <li class="flex items-center gap-2 text-sm text-gray-600">
+                  <li class="flex items-center gap-2 text-gray-600 text-sm">
                     <svg
                       class="w-4 h-4 text-green-500"
                       fill="none"
@@ -1077,7 +1087,7 @@
                     </svg>
                     Digital Marketing
                   </li>
-                  <li class="flex items-center gap-2 text-sm text-gray-600">
+                  <li class="flex items-center gap-2 text-gray-600 text-sm">
                     <svg
                       class="w-4 h-4 text-green-500"
                       fill="none"
@@ -1093,7 +1103,7 @@
                     </svg>
                     E-Commerce
                   </li>
-                  <li class="flex items-center gap-2 text-sm text-gray-600">
+                  <li class="flex items-center gap-2 text-gray-600 text-sm">
                     <svg
                       class="w-4 h-4 text-green-500"
                       fill="none"
@@ -1112,7 +1122,7 @@
                 </ul>
                 <a
                   href="#kontak"
-                  class="inline-flex items-center gap-2 text-[#007BC2] font-semibold group-hover:gap-3 transition-all"
+                  class="inline-flex items-center gap-2 group-hover:gap-3 font-semibold text-[#007BC2] transition-all"
                 >
                   Pelajari Lebih Lanjut
                   <svg
@@ -1134,123 +1144,138 @@
         </div>
       </section>
       <!-- Facilities Section -->
-      <section id="fasilitas" class="py-20 md:py-28 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="text-center mb-16">
+      <section id="fasilitas" class="bg-white py-20 md:py-28">
+        <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+          <div class="mb-16 text-center">
             <span
-              class="text-[#007BC2] font-semibold text-sm uppercase tracking-wider"
+              class="font-semibold text-[#007BC2] text-sm uppercase tracking-wider"
               >Sarana Prasarana</span
             >
             <h2
-              class="section-title text-3xl md:text-4xl lg:text-5xl font-bold text-[#00529C] mt-3"
+              class="mt-3 font-bold text-[#00529C] text-3xl md:text-4xl lg:text-5xl section-title"
             >
               Fasilitas Unggulan
             </h2>
-            <p class="text-gray-600 mt-8 max-w-2xl mx-auto">
+            <p class="mx-auto mt-8 max-w-2xl text-gray-600">
               Fasilitas memadai dan lengkap untuk menunjang proses pembelajaran
               yang optimal
             </p>
           </div>
-          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div class="facility-card group">
+          <div class="gap-6 grid md:grid-cols-2 lg:grid-cols-3">
+            <div class="group facility-card">
               <div class="relative h-64 overflow-hidden">
                 <img
                   src="https://lh6.googleusercontent.com/yMJ3zOxhoaZP6FBmQA7jqXZERbBAKPZvhyupPUA2KFubeDOvEVzXF44YczHXHjQWQFP5tOoV8uIbxhHVnflnZOwkWrSJ2O_VCgtVzWQmIYydkA74YNWkWzshgBnsyHv5IeHvneY"
                   alt="Laboratorium"
                   class="w-full h-full object-cover"
-                  onerror="this.parentElement.innerHTML='<div class=\'w-full h-full bg-gradient-to-br from-[#00529C] to-[#007BC2] flex items-center justify-center\'><svg class=\'w-16 h-16 text-white/50\' fill=\'none\' stroke=\'currentColor\' viewBox=\'0 0 24 24\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'2\' d=\'M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z\'></path></svg></div>';"
+                  onerror="
+                    this.parentElement.innerHTML =
+                      '<div class=\'w-full h-full bg-gradient-to-br from-[#00529C] to-[#007BC2] flex items-center justify-center\'><svg class=\'w-16 h-16 text-white/50\' fill=\'none\' stroke=\'currentColor\' viewBox=\'0 0 24 24\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'2\' d=\'M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z\'></path></svg></div>'
+                  "
                 />
                 <div
                   class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"
                 ></div>
                 <div
-                  class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-full group-hover:translate-y-0 transition-transform"
+                  class="right-0 bottom-0 left-0 absolute p-6 transition-transform translate-y-full group-hover:translate-y-0 transform"
                 >
-                  <h3 class="text-white font-bold text-lg">Laboratorium</h3>
+                  <h3 class="font-bold text-white text-lg">Laboratorium</h3>
                   <p class="text-white/80 text-sm">
                     Lab komputer, IPA dan bahasa dengan peralatan modern
                   </p>
                 </div>
               </div>
             </div>
-            <div class="facility-card group">
+            <div class="group facility-card">
               <div class="relative h-64 overflow-hidden">
                 <img
                   src="https://lh6.googleusercontent.com/zvD36ids1pXoSJ-93G4gRfByualT2OhKIG2rAuF508dY27_OjcsuLBUjHvxG6bUEVFeC20HG84Kbm5Wr5oqtGxaiOG3u4jiF641NwXwZwsojTR_fZigipMQZuHaNmqZlKYXApKg_"
                   alt="Perpustakaan"
                   class="w-full h-full object-cover"
-                  onerror="this.parentElement.innerHTML='<div class=\'w-full h-full bg-gradient-to-br from-[#007BC2] to-[#00529C] flex items-center justify-center\'><svg class=\'w-16 h-16 text-white/50\' fill=\'none\' stroke=\'currentColor\' viewBox=\'0 0 24 24\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'2\' d=\'M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253\'></path></svg></div>';"
+                  onerror="
+                    this.parentElement.innerHTML =
+                      '<div class=\'w-full h-full bg-gradient-to-br from-[#007BC2] to-[#00529C] flex items-center justify-center\'><svg class=\'w-16 h-16 text-white/50\' fill=\'none\' stroke=\'currentColor\' viewBox=\'0 0 24 24\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'2\' d=\'M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253\'></path></svg></div>'
+                  "
                 />
                 <div
                   class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"
                 ></div>
                 <div
-                  class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-full group-hover:translate-y-0 transition-transform"
+                  class="right-0 bottom-0 left-0 absolute p-6 transition-transform translate-y-full group-hover:translate-y-0 transform"
                 >
-                  <h3 class="text-white font-bold text-lg">Perpustakaan</h3>
+                  <h3 class="font-bold text-white text-lg">Perpustakaan</h3>
                   <p class="text-white/80 text-sm">
                     Koleksi lengkap buku dan akses digital library
                   </p>
                 </div>
               </div>
             </div>
-            <div class="facility-card group">
+            <div class="group facility-card">
               <div class="relative h-64 overflow-hidden">
                 <img
                   src="https://lh6.googleusercontent.com/tHHd40JkRfLdeIjgQs5ZWWLvNgzXdeD35qIUrZQTn7tfMP_yoPLCeaAyl_6PABzeP5XX7xxkKTO3z49aZwU7vUfx6QSJPQE7XSX3uc7H8XdOPRiZeNUe74mjhYKwTWlbtgGhGh7O"
                   alt="Masjid"
                   class="w-full h-full object-cover"
-                  onerror="this.parentElement.innerHTML='<div class=\'w-full h-full bg-gradient-to-br from-green-600 to-green-500 flex items-center justify-center\'><svg class=\'w-16 h-16 text-white/50\' viewBox=\'0 0 24 24\' fill=\'currentColor\'><path d=\'M12 3L2 12h3v8h14v-8h3L12 3zm0 2.83L18.17 11H16v7H8v-7H5.83L12 5.83z\'/></svg></div>';"
+                  onerror="
+                    this.parentElement.innerHTML =
+                      '<div class=\'w-full h-full bg-gradient-to-br from-green-600 to-green-500 flex items-center justify-center\'><svg class=\'w-16 h-16 text-white/50\' viewBox=\'0 0 24 24\' fill=\'currentColor\'><path d=\'M12 3L2 12h3v8h14v-8h3L12 3zm0 2.83L18.17 11H16v7H8v-7H5.83L12 5.83z\'/></svg></div>'
+                  "
                 />
                 <div
                   class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"
                 ></div>
                 <div
-                  class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-full group-hover:translate-y-0 transition-transform"
+                  class="right-0 bottom-0 left-0 absolute p-6 transition-transform translate-y-full group-hover:translate-y-0 transform"
                 >
-                  <h3 class="text-white font-bold text-lg">Masjid</h3>
+                  <h3 class="font-bold text-white text-lg">Masjid</h3>
                   <p class="text-white/80 text-sm">
                     Tempat ibadah nyaman dengan kapasitas besar
                   </p>
                 </div>
               </div>
             </div>
-            <div class="facility-card group">
+            <div class="group facility-card">
               <div class="relative h-64 overflow-hidden">
                 <img
                   src="https://sman2depok.sch.id/wp-content/uploads/2022/03/image.png"
                   alt="Aula Multiguna"
                   class="w-full h-full object-cover"
-                  onerror="this.parentElement.innerHTML='<div class=\'w-full h-full bg-gradient-to-br from-orange-500 to-orange-400 flex items-center justify-center\'><svg class=\'w-16 h-16 text-white/50\' fill=\'none\' stroke=\'currentColor\' viewBox=\'0 0 24 24\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'2\' d=\'M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4\'></path></svg></div>';"
+                  onerror="
+                    this.parentElement.innerHTML =
+                      '<div class=\'w-full h-full bg-gradient-to-br from-orange-500 to-orange-400 flex items-center justify-center\'><svg class=\'w-16 h-16 text-white/50\' fill=\'none\' stroke=\'currentColor\' viewBox=\'0 0 24 24\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'2\' d=\'M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4\'></path></svg></div>'
+                  "
                 />
                 <div
                   class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"
                 ></div>
                 <div
-                  class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-full group-hover:translate-y-0 transition-transform"
+                  class="right-0 bottom-0 left-0 absolute p-6 transition-transform translate-y-full group-hover:translate-y-0 transform"
                 >
-                  <h3 class="text-white font-bold text-lg">Aula Multiguna</h3>
+                  <h3 class="font-bold text-white text-lg">Aula Multiguna</h3>
                   <p class="text-white/80 text-sm">
                     Ruang serbaguna untuk berbagai kegiatan sekolah
                   </p>
                 </div>
               </div>
             </div>
-            <div class="facility-card group">
+            <div class="group facility-card">
               <div class="relative h-64 overflow-hidden">
                 <img
                   src="https://lh4.googleusercontent.com/s_BPj-TaCI6f-ix3Xc8nAXSdBH2f9imcleoft8GqAuLJqI6teJf1V-ahb4Ytmkx1JpVeXQEanqCFaBHtItF3YPEEWGKRxAlKtiLXp27gx-83Bud3kbqCV9Wqx9tPUG7cf3bMiKF7"
                   alt="Lapangan"
                   class="w-full h-full object-cover"
-                  onerror="this.parentElement.innerHTML='<div class=\'w-full h-full bg-gradient-to-br from-emerald-500 to-emerald-400 flex items-center justify-center\'><svg class=\'w-16 h-16 text-white/50\' fill=\'none\' stroke=\'currentColor\' viewBox=\'0 0 24 24\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'2\' d=\'M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z\'></path></svg></div>';"
+                  onerror="
+                    this.parentElement.innerHTML =
+                      '<div class=\'w-full h-full bg-gradient-to-br from-emerald-500 to-emerald-400 flex items-center justify-center\'><svg class=\'w-16 h-16 text-white/50\' fill=\'none\' stroke=\'currentColor\' viewBox=\'0 0 24 24\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'2\' d=\'M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z\'></path></svg></div>'
+                  "
                 />
                 <div
                   class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"
                 ></div>
                 <div
-                  class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-full group-hover:translate-y-0 transition-transform"
+                  class="right-0 bottom-0 left-0 absolute p-6 transition-transform translate-y-full group-hover:translate-y-0 transform"
                 >
-                  <h3 class="text-white font-bold text-lg">
+                  <h3 class="font-bold text-white text-lg">
                     Lapangan Olahraga
                   </h3>
                   <p class="text-white/80 text-sm">
@@ -1259,21 +1284,24 @@
                 </div>
               </div>
             </div>
-            <div class="facility-card group">
+            <div class="group facility-card">
               <div class="relative h-64 overflow-hidden">
                 <img
                   src="https://lh3.googleusercontent.com/h3tdm2Gsm2Wg2UC_yHcxm7ZTFjWCeBF5_HFCi6SaFaSBYIUzvAlE7tWTvTZtU6xzHVz8ZA2wVu3v3bAo1z-RLbS1CybZWXL92JSPjmqR5QpbIy_6VI1Fw7R8B5927e1Bc5Bc1crf"
                   alt="Multimedia"
                   class="w-full h-full object-cover"
-                  onerror="this.parentElement.innerHTML='<div class=\'w-full h-full bg-gradient-to-br from-violet-500 to-violet-400 flex items-center justify-center\'><svg class=\'w-16 h-16 text-white/50\' fill=\'none\' stroke=\'currentColor\' viewBox=\'0 0 24 24\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'2\' d=\'M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z\'></path></svg></div>';"
+                  onerror="
+                    this.parentElement.innerHTML =
+                      '<div class=\'w-full h-full bg-gradient-to-br from-violet-500 to-violet-400 flex items-center justify-center\'><svg class=\'w-16 h-16 text-white/50\' fill=\'none\' stroke=\'currentColor\' viewBox=\'0 0 24 24\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'2\' d=\'M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z\'></path></svg></div>'
+                  "
                 />
                 <div
                   class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"
                 ></div>
                 <div
-                  class="absolute bottom-0 left-0 right-0 p-6 transform translate-y-full group-hover:translate-y-0 transition-transform"
+                  class="right-0 bottom-0 left-0 absolute p-6 transition-transform translate-y-full group-hover:translate-y-0 transform"
                 >
-                  <h3 class="text-white font-bold text-lg">Ruang Multimedia</h3>
+                  <h3 class="font-bold text-white text-lg">Ruang Multimedia</h3>
                   <p class="text-white/80 text-sm">
                     Studio produksi dan editing profesional
                   </p>
@@ -1284,29 +1312,29 @@
         </div>
       </section>
       <!-- Extracurricular Section -->
-      <section class="py-20 md:py-28 bg-gradient-to-b from-blue-50/50 to-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="text-center mb-16">
+      <section class="bg-gradient-to-b from-blue-50/50 to-white py-20 md:py-28">
+        <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+          <div class="mb-16 text-center">
             <span
-              class="text-[#007BC2] font-semibold text-sm uppercase tracking-wider"
+              class="font-semibold text-[#007BC2] text-sm uppercase tracking-wider"
               >Pengembangan Diri</span
             >
             <h2
-              class="section-title text-3xl md:text-4xl lg:text-5xl font-bold text-[#00529C] mt-3"
+              class="mt-3 font-bold text-[#00529C] text-3xl md:text-4xl lg:text-5xl section-title"
             >
               Ekstrakurikuler
             </h2>
-            <p class="text-gray-600 mt-8 max-w-2xl mx-auto">
+            <p class="mx-auto mt-8 max-w-2xl text-gray-600">
               Kembangkan bakat dan minatmu melalui berbagai kegiatan
               ekstrakurikuler
             </p>
           </div>
-          <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+          <div class="gap-6 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
             <div
-              class="bg-white rounded-2xl p-6 text-center shadow-lg hover-lift group"
+              class="group bg-white shadow-lg p-6 rounded-2xl text-center hover-lift"
             >
               <div
-                class="w-16 h-16 mx-auto bg-gradient-to-br from-amber-400 to-amber-500 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform"
+                class="flex justify-center items-center bg-gradient-to-br from-amber-400 to-amber-500 mx-auto mb-4 rounded-2xl w-16 h-16 group-hover:scale-110 transition-transform"
               >
                 <svg
                   class="w-8 h-8 text-white"
@@ -1322,14 +1350,14 @@
                   />
                 </svg>
               </div>
-              <h3 class="font-bold text-[#00529C] mb-1">Pramuka</h3>
+              <h3 class="mb-1 font-bold text-[#00529C]">Pramuka</h3>
               <p class="text-gray-500 text-sm">Kepanduan &amp; Kepemimpinan</p>
             </div>
             <div
-              class="bg-white rounded-2xl p-6 text-center shadow-lg hover-lift group"
+              class="group bg-white shadow-lg p-6 rounded-2xl text-center hover-lift"
             >
               <div
-                class="w-16 h-16 mx-auto bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform"
+                class="flex justify-center items-center bg-gradient-to-br from-blue-500 to-blue-600 mx-auto mb-4 rounded-2xl w-16 h-16 group-hover:scale-110 transition-transform"
               >
                 <svg
                   class="w-8 h-8 text-white"
@@ -1345,14 +1373,14 @@
                   />
                 </svg>
               </div>
-              <h3 class="font-bold text-[#00529C] mb-1">OSIS</h3>
+              <h3 class="mb-1 font-bold text-[#00529C]">OSIS</h3>
               <p class="text-gray-500 text-sm">Organisasi Siswa</p>
             </div>
             <div
-              class="bg-white rounded-2xl p-6 text-center shadow-lg hover-lift group"
+              class="group bg-white shadow-lg p-6 rounded-2xl text-center hover-lift"
             >
               <div
-                class="w-16 h-16 mx-auto bg-gradient-to-br from-red-500 to-red-600 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform"
+                class="flex justify-center items-center bg-gradient-to-br from-red-500 to-red-600 mx-auto mb-4 rounded-2xl w-16 h-16 group-hover:scale-110 transition-transform"
               >
                 <svg
                   class="w-8 h-8 text-white"
@@ -1368,14 +1396,14 @@
                   />
                 </svg>
               </div>
-              <h3 class="font-bold text-[#00529C] mb-1">PMR</h3>
+              <h3 class="mb-1 font-bold text-[#00529C]">PMR</h3>
               <p class="text-gray-500 text-sm">Palang Merah Remaja</p>
             </div>
             <div
-              class="bg-white rounded-2xl p-6 text-center shadow-lg hover-lift group"
+              class="group bg-white shadow-lg p-6 rounded-2xl text-center hover-lift"
             >
               <div
-                class="w-16 h-16 mx-auto bg-gradient-to-br from-red-600 to-red-700 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform"
+                class="flex justify-center items-center bg-gradient-to-br from-red-600 to-red-700 mx-auto mb-4 rounded-2xl w-16 h-16 group-hover:scale-110 transition-transform"
               >
                 <svg
                   class="w-8 h-8 text-white"
@@ -1385,14 +1413,14 @@
                   <path d="M14.4 6L14 4H5v17h2v-7h5.6l.4 2h7V6z" />
                 </svg>
               </div>
-              <h3 class="font-bold text-[#00529C] mb-1">Paskibra</h3>
+              <h3 class="mb-1 font-bold text-[#00529C]">Paskibra</h3>
               <p class="text-gray-500 text-sm">Pasukan Pengibar Bendera</p>
             </div>
             <div
-              class="bg-white rounded-2xl p-6 text-center shadow-lg hover-lift group"
+              class="group bg-white shadow-lg p-6 rounded-2xl text-center hover-lift"
             >
               <div
-                class="w-16 h-16 mx-auto bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform"
+                class="flex justify-center items-center bg-gradient-to-br from-purple-500 to-purple-600 mx-auto mb-4 rounded-2xl w-16 h-16 group-hover:scale-110 transition-transform"
               >
                 <svg
                   class="w-8 h-8 text-white"
@@ -1408,7 +1436,7 @@
                   />
                 </svg>
               </div>
-              <h3 class="font-bold text-[#00529C] mb-1">Seni &amp; Musik</h3>
+              <h3 class="mb-1 font-bold text-[#00529C]">Seni &amp; Musik</h3>
               <p class="text-gray-500 text-sm">Paduan Suara &amp; Band</p>
             </div>
           </div>
@@ -1417,38 +1445,38 @@
       <!-- Achievements Section -->
       <section
         id="prestasi"
-        class="py-20 md:py-28 bg-gradient-to-br from-[#00529C] via-[#006bb8] to-[#007BC2] relative overflow-hidden"
+        class="relative bg-gradient-to-br from-[#00529C] via-[#006bb8] to-[#007BC2] py-20 md:py-28 overflow-hidden"
       >
         <div class="absolute inset-0 opacity-10">
           <div
-            class="absolute top-20 left-10 w-64 h-64 bg-white rounded-full"
+            class="top-20 left-10 absolute bg-white rounded-full w-64 h-64"
           ></div>
           <div
-            class="absolute bottom-20 right-10 w-48 h-48 bg-white rounded-full"
+            class="right-10 bottom-20 absolute bg-white rounded-full w-48 h-48"
           ></div>
         </div>
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div class="text-center mb-16">
+        <div class="z-10 relative mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+          <div class="mb-16 text-center">
             <span
-              class="text-blue-200 font-semibold text-sm uppercase tracking-wider"
+              class="font-semibold text-blue-200 text-sm uppercase tracking-wider"
               >Kebanggaan Kami</span
             >
             <h2
-              class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mt-3"
+              class="mt-3 font-bold text-white text-3xl md:text-4xl lg:text-5xl"
             >
               Prestasi Sekolah
             </h2>
-            <p class="text-white/80 mt-6 max-w-2xl mx-auto">
+            <p class="mx-auto mt-6 max-w-2xl text-white/80">
               Berbagai penghargaan yang diraih siswa dan sekolah dalam bidang
               akademik, olahraga dan seni
             </p>
           </div>
-          <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class="gap-6 grid md:grid-cols-2 lg:grid-cols-4">
             <div
-              class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 hover:bg-white/20 transition-all group"
+              class="group bg-white/10 hover:bg-white/20 backdrop-blur-sm p-6 border border-white/20 rounded-2xl transition-all"
             >
               <div
-                class="w-14 h-14 bg-gradient-to-br from-yellow-400 to-yellow-500 rounded-xl flex items-center justify-center mb-4"
+                class="flex justify-center items-center bg-gradient-to-br from-yellow-400 to-yellow-500 mb-4 rounded-xl w-14 h-14"
               >
                 <svg
                   class="w-7 h-7 text-white"
@@ -1460,22 +1488,22 @@
                   />
                 </svg>
               </div>
-              <h3 class="text-white font-bold text-lg mb-2">
+              <h3 class="mb-2 font-bold text-white text-lg">
                 Juara 1 OSN Matematika
               </h3>
-              <p class="text-white/70 text-sm mb-3">
+              <p class="mb-3 text-white/70 text-sm">
                 Tingkat Provinsi Jawa Tengah 2024
               </p>
               <span
-                class="inline-block bg-yellow-400/20 text-yellow-300 px-3 py-1 rounded-full text-xs font-semibold"
+                class="inline-block bg-yellow-400/20 px-3 py-1 rounded-full font-semibold text-yellow-300 text-xs"
                 >Akademik</span
               >
             </div>
             <div
-              class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 hover:bg-white/20 transition-all group"
+              class="group bg-white/10 hover:bg-white/20 backdrop-blur-sm p-6 border border-white/20 rounded-2xl transition-all"
             >
               <div
-                class="w-14 h-14 bg-gradient-to-br from-gray-300 to-gray-400 rounded-xl flex items-center justify-center mb-4"
+                class="flex justify-center items-center bg-gradient-to-br from-gray-300 to-gray-400 mb-4 rounded-xl w-14 h-14"
               >
                 <svg
                   class="w-7 h-7 text-white"
@@ -1487,18 +1515,18 @@
                   />
                 </svg>
               </div>
-              <h3 class="text-white font-bold text-lg mb-2">Juara 2 Robotik</h3>
-              <p class="text-white/70 text-sm mb-3">Kompetisi Nasional 2024</p>
+              <h3 class="mb-2 font-bold text-white text-lg">Juara 2 Robotik</h3>
+              <p class="mb-3 text-white/70 text-sm">Kompetisi Nasional 2024</p>
               <span
-                class="inline-block bg-blue-400/20 text-blue-300 px-3 py-1 rounded-full text-xs font-semibold"
+                class="inline-block bg-blue-400/20 px-3 py-1 rounded-full font-semibold text-blue-300 text-xs"
                 >Teknologi</span
               >
             </div>
             <div
-              class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 hover:bg-white/20 transition-all group"
+              class="group bg-white/10 hover:bg-white/20 backdrop-blur-sm p-6 border border-white/20 rounded-2xl transition-all"
             >
               <div
-                class="w-14 h-14 bg-gradient-to-br from-yellow-400 to-yellow-500 rounded-xl flex items-center justify-center mb-4"
+                class="flex justify-center items-center bg-gradient-to-br from-yellow-400 to-yellow-500 mb-4 rounded-xl w-14 h-14"
               >
                 <svg
                   class="w-7 h-7 text-white"
@@ -1510,20 +1538,20 @@
                   />
                 </svg>
               </div>
-              <h3 class="text-white font-bold text-lg mb-2">Juara 1 Futsal</h3>
-              <p class="text-white/70 text-sm mb-3">
+              <h3 class="mb-2 font-bold text-white text-lg">Juara 1 Futsal</h3>
+              <p class="mb-3 text-white/70 text-sm">
                 Liga Pelajar Jawa Tengah 2024
               </p>
               <span
-                class="inline-block bg-green-400/20 text-green-300 px-3 py-1 rounded-full text-xs font-semibold"
+                class="inline-block bg-green-400/20 px-3 py-1 rounded-full font-semibold text-green-300 text-xs"
                 >Olahraga</span
               >
             </div>
             <div
-              class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20 hover:bg-white/20 transition-all group"
+              class="group bg-white/10 hover:bg-white/20 backdrop-blur-sm p-6 border border-white/20 rounded-2xl transition-all"
             >
               <div
-                class="w-14 h-14 bg-gradient-to-br from-amber-600 to-amber-700 rounded-xl flex items-center justify-center mb-4"
+                class="flex justify-center items-center bg-gradient-to-br from-amber-600 to-amber-700 mb-4 rounded-xl w-14 h-14"
               >
                 <svg
                   class="w-7 h-7 text-white"
@@ -1535,20 +1563,20 @@
                   />
                 </svg>
               </div>
-              <h3 class="text-white font-bold text-lg mb-2">Juara 3 FLS2N</h3>
-              <p class="text-white/70 text-sm mb-3">
+              <h3 class="mb-2 font-bold text-white text-lg">Juara 3 FLS2N</h3>
+              <p class="mb-3 text-white/70 text-sm">
                 Festival Seni Pelajar Nasional 2024
               </p>
               <span
-                class="inline-block bg-purple-400/20 text-purple-300 px-3 py-1 rounded-full text-xs font-semibold"
+                class="inline-block bg-purple-400/20 px-3 py-1 rounded-full font-semibold text-purple-300 text-xs"
                 >Seni</span
               >
             </div>
           </div>
-          <div class="text-center mt-12">
+          <div class="mt-12 text-center">
             <a
               href="#"
-              class="inline-flex items-center gap-2 bg-white text-[#00529C] px-8 py-4 rounded-full font-bold hover:shadow-xl hover:shadow-blue-900/20 transition-all"
+              class="inline-flex items-center gap-2 bg-white hover:shadow-blue-900/20 hover:shadow-xl px-8 py-4 rounded-full font-bold text-[#00529C] transition-all"
             >
               Lihat Semua Prestasi
               <svg
@@ -1568,28 +1596,28 @@
         </div>
       </section>
       <!-- Testimonials Section -->
-      <section class="py-20 md:py-28 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="text-center mb-16">
+      <section class="bg-white py-20 md:py-28">
+        <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+          <div class="mb-16 text-center">
             <span
-              class="text-[#007BC2] font-semibold text-sm uppercase tracking-wider"
+              class="font-semibold text-[#007BC2] text-sm uppercase tracking-wider"
               >Testimoni</span
             >
             <h2
-              class="section-title text-3xl md:text-4xl lg:text-5xl font-bold text-[#00529C] mt-3"
+              class="mt-3 font-bold text-[#00529C] text-3xl md:text-4xl lg:text-5xl section-title"
             >
               Kata Mereka
             </h2>
-            <p class="text-gray-600 mt-8 max-w-2xl mx-auto">
+            <p class="mx-auto mt-8 max-w-2xl text-gray-600">
               Pengalaman nyata dari siswa dan alumni SMK YPE Semarang
             </p>
           </div>
-          <div class="grid md:grid-cols-3 gap-8">
+          <div class="gap-8 grid md:grid-cols-3">
             <div
-              class="bg-gradient-to-br from-blue-50 to-white rounded-2xl p-8 shadow-lg hover-lift relative"
+              class="relative bg-gradient-to-br from-blue-50 to-white shadow-lg p-8 rounded-2xl hover-lift"
             >
               <svg
-                class="absolute top-6 right-6 w-10 h-10 text-[#00529C]/10"
+                class="top-6 right-6 absolute w-10 h-10 text-[#00529C]/10"
                 fill="currentColor"
                 viewbox="0 0 24 24"
               >
@@ -1597,14 +1625,14 @@
                   d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"
                 />
               </svg>
-              <p class="text-gray-600 leading-relaxed mb-6">
+              <p class="mb-6 text-gray-600 leading-relaxed">
                 "SMK YPE Semarang memberikan pengalaman belajar yang luar biasa.
                 Guru-guru yang kompeten dan fasilitas yang lengkap sangat
                 membantu saya dalam mengembangkan kemampuan di bidang IT."
               </p>
               <div class="flex items-center gap-4">
                 <div
-                  class="w-12 h-12 rounded-full bg-gradient-to-br from-[#00529C] to-[#007BC2] flex items-center justify-center text-white font-bold"
+                  class="flex justify-center items-center bg-gradient-to-br from-[#00529C] to-[#007BC2] rounded-full w-12 h-12 font-bold text-white"
                 >
                   A
                 </div>
@@ -1615,10 +1643,10 @@
               </div>
             </div>
             <div
-              class="bg-gradient-to-br from-blue-50 to-white rounded-2xl p-8 shadow-lg hover-lift relative"
+              class="relative bg-gradient-to-br from-blue-50 to-white shadow-lg p-8 rounded-2xl hover-lift"
             >
               <svg
-                class="absolute top-6 right-6 w-10 h-10 text-[#00529C]/10"
+                class="top-6 right-6 absolute w-10 h-10 text-[#00529C]/10"
                 fill="currentColor"
                 viewbox="0 0 24 24"
               >
@@ -1626,7 +1654,7 @@
                   d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"
                 />
               </svg>
-              <p class="text-gray-600 leading-relaxed mb-6">
+              <p class="mb-6 text-gray-600 leading-relaxed">
                 "Saya bersyukur bisa bersekolah di sini. Selain ilmu akademik,
                 saya juga belajar soft skill melalui berbagai kegiatan
                 ekstrakurikuler. Sekarang saya sukses bekerja di perusahaan
@@ -1634,7 +1662,7 @@
               </p>
               <div class="flex items-center gap-4">
                 <div
-                  class="w-12 h-12 rounded-full bg-gradient-to-br from-purple-500 to-purple-600 flex items-center justify-center text-white font-bold"
+                  class="flex justify-center items-center bg-gradient-to-br from-purple-500 to-purple-600 rounded-full w-12 h-12 font-bold text-white"
                 >
                   D
                 </div>
@@ -1645,10 +1673,10 @@
               </div>
             </div>
             <div
-              class="bg-gradient-to-br from-blue-50 to-white rounded-2xl p-8 shadow-lg hover-lift relative"
+              class="relative bg-gradient-to-br from-blue-50 to-white shadow-lg p-8 rounded-2xl hover-lift"
             >
               <svg
-                class="absolute top-6 right-6 w-10 h-10 text-[#00529C]/10"
+                class="top-6 right-6 absolute w-10 h-10 text-[#00529C]/10"
                 fill="currentColor"
                 viewbox="0 0 24 24"
               >
@@ -1656,14 +1684,14 @@
                   d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"
                 />
               </svg>
-              <p class="text-gray-600 leading-relaxed mb-6">
+              <p class="mb-6 text-gray-600 leading-relaxed">
                 "Guru-guru di SMK YPE sangat perhatian dan selalu mendukung
                 perkembangan kami. Program magang yang disediakan sekolah
                 membuat saya siap menghadapi dunia kerja."
               </p>
               <div class="flex items-center gap-4">
                 <div
-                  class="w-12 h-12 rounded-full bg-gradient-to-br from-green-500 to-green-600 flex items-center justify-center text-white font-bold"
+                  class="flex justify-center items-center bg-gradient-to-br from-green-500 to-green-600 rounded-full w-12 h-12 font-bold text-white"
                 >
                   R
                 </div>
@@ -1679,27 +1707,27 @@
       <!-- Contact Section -->
       <section
         id="kontak"
-        class="py-20 md:py-28 bg-gradient-to-b from-blue-50/50 to-white"
+        class="bg-gradient-to-b from-blue-50/50 to-white py-20 md:py-28"
       >
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="text-center mb-16">
+        <div class="mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+          <div class="mb-16 text-center">
             <span
-              class="text-[#007BC2] font-semibold text-sm uppercase tracking-wider"
+              class="font-semibold text-[#007BC2] text-sm uppercase tracking-wider"
               >Hubungi Kami</span
             >
             <h2
-              class="section-title text-3xl md:text-4xl lg:text-5xl font-bold text-[#00529C] mt-3"
+              class="mt-3 font-bold text-[#00529C] text-3xl md:text-4xl lg:text-5xl section-title"
             >
               Kontak &amp; Lokasi
             </h2>
-            <p class="text-gray-600 mt-8 max-w-2xl mx-auto">
+            <p class="mx-auto mt-8 max-w-2xl text-gray-600">
               Tertarik untuk bergabung? Hubungi kami atau kunjungi langsung
               sekolah kami
             </p>
           </div>
-          <div class="grid lg:grid-cols-2 gap-12">
+          <div class="gap-12 grid lg:grid-cols-2">
             <div>
-              <div class="bg-white rounded-2xl shadow-lg overflow-hidden mb-8">
+              <div class="bg-white shadow-lg mb-8 rounded-2xl overflow-hidden">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.9041866615958!2d110.3899201!3d-7.0205478999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708ba5fa31818d%3A0x3856aae2726d612b!2sSMK%20YPE%20Semarang!5e0!3m2!1sid!2sid!4v1767964586878!5m2!1sid!2sid"
                   width="100%"
@@ -1711,10 +1739,10 @@
                   class="w-full"
                 ></iframe>
               </div>
-              <div class="grid sm:grid-cols-2 gap-6">
-                <div class="bg-white rounded-xl p-6 shadow-lg hover-lift">
+              <div class="gap-6 grid sm:grid-cols-2">
+                <div class="bg-white shadow-lg p-6 rounded-xl hover-lift">
                   <div
-                    class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-4"
+                    class="flex justify-center items-center bg-blue-100 mb-4 rounded-xl w-12 h-12"
                   >
                     <svg
                       class="w-6 h-6 text-[#00529C]"
@@ -1736,14 +1764,14 @@
                       />
                     </svg>
                   </div>
-                  <h3 class="font-bold text-[#00529C] mb-2">Alamat</h3>
+                  <h3 class="mb-2 font-bold text-[#00529C]">Alamat</h3>
                   <p class="text-gray-600 text-sm">
                     Jl. Dewi Sartika Timur, Kec. Gunung Pati, Kota Semarang
                   </p>
                 </div>
-                <div class="bg-white rounded-xl p-6 shadow-lg hover-lift">
+                <div class="bg-white shadow-lg p-6 rounded-xl hover-lift">
                   <div
-                    class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-4"
+                    class="flex justify-center items-center bg-blue-100 mb-4 rounded-xl w-12 h-12"
                   >
                     <svg
                       class="w-6 h-6 text-[#00529C]"
@@ -1759,14 +1787,14 @@
                       />
                     </svg>
                   </div>
-                  <h3 class="font-bold text-[#00529C] mb-2">Telepon</h3>
+                  <h3 class="mb-2 font-bold text-[#00529C]">Telepon</h3>
                   <p id="contact-phone" class="text-gray-600 text-sm">
                     (024) 1234567
                   </p>
                 </div>
-                <div class="bg-white rounded-xl p-6 shadow-lg hover-lift">
+                <div class="bg-white shadow-lg p-6 rounded-xl hover-lift">
                   <div
-                    class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-4"
+                    class="flex justify-center items-center bg-blue-100 mb-4 rounded-xl w-12 h-12"
                   >
                     <svg
                       class="w-6 h-6 text-[#00529C]"
@@ -1782,14 +1810,14 @@
                       />
                     </svg>
                   </div>
-                  <h3 class="font-bold text-[#00529C] mb-2">Email</h3>
+                  <h3 class="mb-2 font-bold text-[#00529C]">Email</h3>
                   <p id="contact-email" class="text-gray-600 text-sm">
                     smkypesmarang@gmail.com
                   </p>
                 </div>
-                <div class="bg-white rounded-xl p-6 shadow-lg hover-lift">
+                <div class="bg-white shadow-lg p-6 rounded-xl hover-lift">
                   <div
-                    class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-4"
+                    class="flex justify-center items-center bg-blue-100 mb-4 rounded-xl w-12 h-12"
                   >
                     <svg
                       class="w-6 h-6 text-[#00529C]"
@@ -1805,22 +1833,22 @@
                       />
                     </svg>
                   </div>
-                  <h3 class="font-bold text-[#00529C] mb-2">Jam Operasional</h3>
+                  <h3 class="mb-2 font-bold text-[#00529C]">Jam Operasional</h3>
                   <p class="text-gray-600 text-sm">
                     Senin - Jumat: 07.00 - 15.00 WIB
                   </p>
                 </div>
               </div>
             </div>
-            <div class="bg-white rounded-2xl p-8 shadow-lg">
-              <h3 class="text-2xl font-bold text-[#00529C] mb-6">
+            <div class="bg-white shadow-lg p-8 rounded-2xl">
+              <h3 class="mb-6 font-bold text-[#00529C] text-2xl">
                 Kirim Pesan
               </h3>
               <form id="contact-form" class="space-y-6">
                 <div>
                   <label
                     for="name"
-                    class="block text-sm font-medium text-gray-700 mb-2"
+                    class="block mb-2 font-medium text-gray-700 text-sm"
                     >Nama Lengkap</label
                   >
                   <input
@@ -1828,14 +1856,14 @@
                     id="name"
                     name="name"
                     required
-                    class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#007BC2] focus:ring-2 focus:ring-blue-100 outline-none transition-all"
+                    class="px-4 py-3 border border-gray-200 focus:border-[#007BC2] rounded-xl outline-none focus:ring-2 focus:ring-blue-100 w-full transition-all"
                     placeholder="Masukkan nama lengkap"
                   />
                 </div>
                 <div>
                   <label
                     for="email"
-                    class="block text-sm font-medium text-gray-700 mb-2"
+                    class="block mb-2 font-medium text-gray-700 text-sm"
                     >Email</label
                   >
                   <input
@@ -1843,20 +1871,20 @@
                     id="email"
                     name="email"
                     required
-                    class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#007BC2] focus:ring-2 focus:ring-blue-100 outline-none transition-all"
+                    class="px-4 py-3 border border-gray-200 focus:border-[#007BC2] rounded-xl outline-none focus:ring-2 focus:ring-blue-100 w-full transition-all"
                     placeholder="Masukkan email"
                   />
                 </div>
                 <div>
                   <label
                     for="subject"
-                    class="block text-sm font-medium text-gray-700 mb-2"
+                    class="block mb-2 font-medium text-gray-700 text-sm"
                     >Subjek</label
                   >
                   <select
                     id="subject"
                     name="subject"
-                    class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#007BC2] focus:ring-2 focus:ring-blue-100 outline-none transition-all"
+                    class="px-4 py-3 border border-gray-200 focus:border-[#007BC2] rounded-xl outline-none focus:ring-2 focus:ring-blue-100 w-full transition-all"
                   >
                     <option value="">Pilih subjek</option>
                     <option value="pendaftaran">Informasi Pendaftaran</option>
@@ -1868,7 +1896,7 @@
                 <div>
                   <label
                     for="message"
-                    class="block text-sm font-medium text-gray-700 mb-2"
+                    class="block mb-2 font-medium text-gray-700 text-sm"
                     >Pesan</label
                   >
                   <textarea
@@ -1876,19 +1904,19 @@
                     name="message"
                     rows="4"
                     required
-                    class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#007BC2] focus:ring-2 focus:ring-blue-100 outline-none transition-all resize-none"
+                    class="px-4 py-3 border border-gray-200 focus:border-[#007BC2] rounded-xl outline-none focus:ring-2 focus:ring-blue-100 w-full transition-all resize-none"
                     placeholder="Tulis pesan Anda"
                   ></textarea>
                 </div>
                 <button
                   type="submit"
-                  class="w-full bg-gradient-to-r from-[#00529C] to-[#007BC2] text-white py-4 rounded-xl font-bold hover:shadow-lg hover:shadow-blue-200 transition-all"
+                  class="bg-gradient-to-r from-[#00529C] to-[#007BC2] hover:shadow-blue-200 hover:shadow-lg py-4 rounded-xl w-full font-bold text-white transition-all"
                 >
                   Kirim Pesan
                 </button>
                 <div
                   id="form-message"
-                  class="hidden text-center py-3 rounded-xl"
+                  class="hidden py-3 rounded-xl text-center"
                 ></div>
               </form>
             </div>
@@ -1897,15 +1925,15 @@
       </section>
       <!-- Footer -->
       <footer class="bg-[#00529C] text-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
+        <div class="mx-auto px-4 sm:px-6 lg:px-8 py-16 max-w-7xl">
+          <div class="gap-12 grid md:grid-cols-2 lg:grid-cols-4">
             <div>
               <div class="flex items-center gap-3 mb-6">
                 <img
-                  src="Logo SMK YPE Semarang.png"
+                  src="asset/Logo SMK YPE Semarang.png"
                   alt="Logo"
-                  class="h-12 w-auto"
-                  onerror="this.style.display='none';"
+                  class="w-auto h-12"
+                  onerror="this.style.display = 'none'"
                 />
                 <div>
                   <h3 id="footer-school-name" class="font-bold text-lg">
@@ -1914,14 +1942,15 @@
                   <p class="text-blue-200 text-sm">Sekolah Menengah Kejuruan</p>
                 </div>
               </div>
-              <p class="text-blue-200 text-sm leading-relaxed mb-6">
+              <p class="mb-6 text-blue-200 text-sm leading-relaxed">
                 Mencetak generasi unggul yang berkarakter, kompeten dan siap
                 menghadapi tantangan global.
               </p>
               <div class="flex gap-4">
                 <a
-                  href="#"
-                  class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors"
+                  href="https://www.facebook.com/smkypesmg135/"
+                  target="_blank"
+                  class="flex justify-center items-center bg-white/10 hover:bg-white/20 rounded-lg w-10 h-10 transition-colors"
                 >
                   <svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24">
                     <path
@@ -1929,8 +1958,9 @@
                     /></svg
                 ></a>
                 <a
-                  href="#"
-                  class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors"
+                  href="https://www.instagram.com/smp_smk.ype.semarang/"
+                  target="_blank"
+                  class="flex justify-center items-center bg-white/10 hover:bg-white/20 rounded-lg w-10 h-10 transition-colors"
                 >
                   <svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24">
                     <path
@@ -1938,8 +1968,9 @@
                     /></svg
                 ></a>
                 <a
-                  href="#"
-                  class="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors"
+                  href="https://www.tiktok.com/@smp_smk.ype.semarang"
+                  target="_blank"
+                  class="flex justify-center items-center bg-white/10 hover:bg-white/20 rounded-lg w-10 h-10 transition-colors"
                 >
                   <svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24">
                     <path
@@ -1949,66 +1980,66 @@
               </div>
             </div>
             <div>
-              <h4 class="font-bold text-lg mb-6">Tautan Cepat</h4>
+              <h4 class="mb-6 font-bold text-lg">Tautan Cepat</h4>
               <ul class="space-y-3">
                 <li>
                   <a
                     href="#tentang"
-                    class="text-blue-200 hover:text-white transition-colors text-sm"
+                    class="text-blue-200 hover:text-white text-sm transition-colors"
                     >Tentang Kami</a
                   >
                 </li>
                 <li>
                   <a
                     href="#akademik"
-                    class="text-blue-200 hover:text-white transition-colors text-sm"
+                    class="text-blue-200 hover:text-white text-sm transition-colors"
                     >Program Akademik</a
                   >
                 </li>
                 <li>
                   <a
                     href="#fasilitas"
-                    class="text-blue-200 hover:text-white transition-colors text-sm"
+                    class="text-blue-200 hover:text-white text-sm transition-colors"
                     >Fasilitas</a
                   >
                 </li>
                 <li>
                   <a
                     href="#prestasi"
-                    class="text-blue-200 hover:text-white transition-colors text-sm"
+                    class="text-blue-200 hover:text-white text-sm transition-colors"
                     >Prestasi</a
                   >
                 </li>
                 <li>
                   <a
                     href="#kontak"
-                    class="text-blue-200 hover:text-white transition-colors text-sm"
+                    class="text-blue-200 hover:text-white text-sm transition-colors"
                     >Hubungi Kami</a
                   >
                 </li>
               </ul>
             </div>
             <div>
-              <h4 class="font-bold text-lg mb-6">Program Keahlian</h4>
+              <h4 class="mb-6 font-bold text-lg">Program Keahlian</h4>
               <ul class="space-y-3">
                 <li>
                   <a
                     href="#"
-                    class="text-blue-200 hover:text-white transition-colors text-sm"
+                    class="text-blue-200 hover:text-white text-sm transition-colors"
                     >Teknik Komputer &amp; Jaringan</a
                   >
                 </li>
                 <li>
                   <a
                     href="#"
-                    class="text-blue-200 hover:text-white transition-colors text-sm"
+                    class="text-blue-200 hover:text-white text-sm transition-colors"
                     >Bisnis Digital</a
                   >
                 </li>
               </ul>
             </div>
             <div>
-              <h4 class="font-bold text-lg mb-6">Jam Operasional</h4>
+              <h4 class="mb-6 font-bold text-lg">Jam Operasional</h4>
               <ul class="space-y-3 text-blue-200 text-sm">
                 <li class="flex justify-between">
                   <span>Senin - Kamis</span><span>07:00 - 15:00</span>
@@ -2023,26 +2054,14 @@
             </div>
           </div>
         </div>
-        <div class="border-t border-white/10">
-          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+        <div class="border-white/10 border-t">
+          <div class="mx-auto px-4 sm:px-6 lg:px-8 py-6 max-w-7xl">
             <div
-              class="flex flex-col md:flex-row justify-between items-center gap-4"
+              class="flex md:flex-row flex-col justify-center items-center gap-4"
             >
               <p class="text-blue-200 text-sm">
-                © 2026 SMK YPE Semarang. Hak Cipta Dilindungi.
+                Copyright © 2026 SMK YPE Semarang
               </p>
-              <div class="flex gap-6">
-                <a
-                  href="#"
-                  class="text-blue-200 hover:text-white text-sm transition-colors"
-                  >Kebijakan Privasi</a
-                >
-                <a
-                  href="#"
-                  class="text-blue-200 hover:text-white text-sm transition-colors"
-                  >Syarat &amp; Ketentuan</a
-                >
-              </div>
             </div>
           </div>
         </div>
